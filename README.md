@@ -5,6 +5,7 @@
 
 ## Description
 
+  This is just a adaption of The Falling of Momo using Delsys Tringo EMG sensors instead of Myo Armband to increase the sample frequency and allow us to processing the EMG signal data with higher frequencies.
   The Falling of Momo is a Falldown-inspired, casual survival game. However, what makes the game unique is that players control Momo's movement using their forearm muscles. For a right-handed player, this means flexing your wrist inwards to move Momo left, and extending your wrist out to make Momo move right. Momo can also jump by quickly flexing both muscles in unison, a motion known as an "impulse".
 
   Momo was designed in partnership by:
