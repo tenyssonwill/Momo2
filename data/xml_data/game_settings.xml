@@ -1,0 +1,156 @@
+<Level>
+	<GameObject file="xml_data/game_settings_message.xml" tag="message"/>
+	
+	<GameObject file="xml_data/slider.xml" tag="starting_level">
+		<Transform>
+			<Translation x="375" y="90"/>
+			<Scale x="200" y="20"/>
+		</Transform>
+	</GameObject>
+	
+	<GameObject file="xml_data/button.xml" tag="increase_difficulty_over_time">
+		<Transform>
+			<Translation x="375.0" y="120.0"/>
+			<Scale x="20.0" y="20.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button.xml" tag="default_control">
+		<Transform>
+			<Translation x="375.0" y="170.0"/>
+			<Scale x="20.0" y="20.0"/>
+		</Transform>
+	</GameObject>
+	
+	<GameObject file="xml_data/button.xml" tag="auto_direct">
+		<Transform>
+			<Translation x="375.0" y="205.0"/>
+			<Scale x="20.0" y="20.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button.xml" tag="left">
+		<Transform>
+			<Translation x="95.0" y="220.0"/>
+			<Scale x="50.0" y="15.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button.xml" tag="right">
+		<Transform>
+			<Translation x="170.0" y="220.0"/>
+			<Scale x="50.0" y="15.0"/>
+		</Transform>
+	</GameObject>
+	
+	<GameObject file="xml_data/button.xml" tag="both">
+		<Transform>
+			<Translation x="250.0" y="220.0"/>
+			<Scale x="50.0" y="15.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button.xml" tag="single_muscle">
+		<Transform>
+			<Translation x="375.0" y="240.0"/>
+			<Scale x="20.0" y="20.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button.xml" tag="auto_left">
+		<Transform>
+			<Translation x="105.0" y="253.0"/>
+			<Scale x="80.0" y="15.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button.xml" tag="auto_right">
+		<Transform>
+			<Translation x="235.0" y="253.0"/>
+			<Scale x="80.0" y="15.0"/>
+		</Transform>
+	</GameObject>
+	
+	<GameObject file="xml_data/button.xml" tag="obstacles">
+		<Transform>
+			<Translation x="375.0" y="282.0"/>
+			<Scale x="20.0" y="20.0"/>
+		</Transform>
+	</GameObject>
+	
+	<GameObject file="xml_data/button.xml" tag="terrain_mods">
+		<Transform>
+			<Translation x="375.0" y="312.0"/>
+			<Scale x="20.0" y="20.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button.xml" tag="log_raw_data">
+		<Transform>
+			<Translation x="375.0" y="342.0"/>
+			<Scale x="20.0" y="20.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button.xml" tag="fitts_law">
+		<Transform>
+			<Translation x="375.0" y="375.0"/>
+			<Scale x="20.0" y="20.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button.xml" tag="input_platform">
+		<Transform>
+			<Translation x="55.0" y="395.0"/>
+			<Scale x="15.0" y="15.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button.xml" tag="log_fitts">
+		<Transform>
+			<Translation x="55.0" y="420.0"/>
+			<Scale x="15.0" y="15.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button.xml" tag="contraints_fitts">
+		<Transform>
+			<Translation x="55.0" y="445.0"/>
+			<Scale x="15.0" y="15.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button.xml" tag="jump_3times">
+		<Transform>
+			<Translation x="315.0" y="420.0"/>
+			<Scale x="15.0" y="15.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button.xml" tag="wait_2secs">
+		<Transform>
+			<Translation x="315.0" y="435.0"/>
+			<Scale x="15.0" y="15.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button_back.xml" tag="back">
+		<Transform>
+			<Translation x="25.0" y="25.0"/>
+			<Scale x="30.0" y="30.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/modal.xml" tag="auto_direct_modal">
+		<Transform>
+			<Translation x="85" y="200"/>
+			<Scale x="100" y="20"/>
+		</Transform>
+	</GameObject>
+	<GameObject file="xml_data/modal.xml" tag="single_muscle_modal">
+		<Transform>
+			<Translation x="85" y="240"/>
+			<Scale x="100" y="20"/>
+		</Transform>
+	</GameObject>
+</Level>

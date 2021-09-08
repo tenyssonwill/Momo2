@@ -1,0 +1,24 @@
+<Level>
+  <GameObject file="xml_data/calibrate_failure_message.xml"/>
+	<GameObject file="xml_data/button.xml" tag="auto">
+		<Transform>
+			<Translation x="125.0" y="250.0"/>
+			<Scale x="200.0" y="70.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button.xml" tag="manual">
+		<Transform>
+			<Translation x="375.0" y="250.0"/>
+			<Scale x="200.0" y="70.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button_back.xml" tag="back">
+		<Transform>
+			<Translation x="25.0" y="25.0"/>
+			<Scale x="30.0" y="30.0"/>
+		</Transform>
+	</GameObject>
+
+</Level>

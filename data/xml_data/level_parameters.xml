@@ -1,0 +1,16 @@
+<GameObject>
+	<LevelParameters  
+		maxLevel="99" 
+		levelOneRiseSpeed="10"
+		riseSpeedChangePerLevel="0.5"
+		levelUpTime="5000"
+		bonusScorePerLevel="1"
+		timePerBonusScore="1000"
+		scoreValueParameterName="scoreValue"
+		currentLevelParameterName="currentLevel"
+		currentRiseSpeedParameterName="currentRiseSpeed"
+		levelUpSoundFile="sound_effects/rise01.mp3"
+		pan="0.0"
+		amp="1.0"
+	/>
+</GameObject>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SaveData>
+  <Game breakthrough_mode="wait_2sec" control_policy="normal" direction_assist_mode="left_only" dwell_time="2" fitts_law="false" high_avg_speed_threshold="150" input_platform="false" level_up_over_time="true" log_fitts="false" log_raw_data="false" low_avg_speed_threshold="40" obstacles="true" platform_mods="true" single_muscle_mode="auto_left" starting_level="1" still_platform="false"/>
+  <IO emg_sampling_policy="difference" min_input_threshold="0.1" music_volume="0.32291663" myo_forearm="right" sound_effects_volume="0.2326389"/>
+  <Stats high_score="930">
+    <Record avg_speed="63.068775" coins_collected="0" date="1483629912832" fitts_law="false" level="2" score="10" time_played_millis="7416"/>
+    <Record avg_speed="127.84119" coins_collected="10" date="1540804714688" fitts_law="false" level="3" score="70" time_played_millis="17852"/>
+    <Record avg_speed="142.78952" coins_collected="2" date="1554928087833" fitts_law="false" level="3" score="30" time_played_millis="46622"/>
+    <Record avg_speed="128.61754" coins_collected="1" date="1554928170753" fitts_law="false" level="6" score="55" time_played_millis="69999"/>
+    <Record avg_speed="115.55972" coins_collected="19" date="1557861407549" fitts_law="false" level="19" score="375" time_played_millis="195542"/>
+    <Record avg_speed="32.17572" coins_collected="0" date="1558470241852" fitts_law="false" level="2" score="10" time_played_millis="32715"/>
+    <Record avg_speed="108.46704" coins_collected="2" date="1559764331999" fitts_law="false" level="6" score="60" time_played_millis="64776"/>
+    <Record avg_speed="105.3887" coins_collected="6" date="1559764676152" fitts_law="false" level="6" score="80" time_played_millis="66909"/>
+    <Record avg_speed="95.28367" coins_collected="112" date="1559765372988" fitts_law="false" level="22" score="930" time_played_millis="234021"/>
+    <Record avg_speed="48.448555" coins_collected="0" date="1560779243968" fitts_law="false" level="1" score="0" time_played_millis="10644"/>
+    <Record avg_speed="41.64851" coins_collected="0" date="1560779468537" fitts_law="false" level="2" score="10" time_played_millis="37810"/>
+    <Record avg_speed="108.90741" coins_collected="0" date="1560779799912" fitts_law="false" level="1" score="0" time_played_millis="8787"/>
+    <Record avg_speed="41.011154" coins_collected="0" date="1560780867142" fitts_law="false" level="1" score="0" time_played_millis="12515"/>
+    <Record avg_speed="43.04915" coins_collected="0" date="1560781031481" fitts_law="false" level="1" score="0" time_played_millis="11838"/>
+    <Record avg_speed="57.156464" coins_collected="0" date="1560781517941" fitts_law="false" level="2" score="10" time_played_millis="25542"/>
+    <Record avg_speed="136.06493" coins_collected="1" date="1560781541262" fitts_law="false" level="2" score="15" time_played_millis="11084"/>
+    <Record avg_speed="90.61102" coins_collected="1" date="1560781664672" fitts_law="false" level="2" score="15" time_played_millis="24188"/>
+    <Record avg_speed="162.52307" coins_collected="0" date="1565292524958" fitts_law="false" level="1" score="0" time_played_millis="5129"/>
+    <Record avg_speed="61.30641" coins_collected="0" date="1565293145939" fitts_law="false" level="1" score="0" time_played_millis="7682"/>
+    <Record avg_speed="117.55176" coins_collected="4" date="1565350729252" fitts_law="false" level="4" score="50" time_played_millis="57944"/>
+    <Record avg_speed="40.195988" coins_collected="1" date="1565350974190" fitts_law="false" level="2" score="15" time_played_millis="31602"/>
+    <Record avg_speed="113.39156" coins_collected="0" date="1565351259444" fitts_law="false" level="1" score="0" time_played_millis="8043"/>
+    <Record avg_speed="76.26073" coins_collected="0" date="1565351305049" fitts_law="false" level="2" score="10" time_played_millis="21605"/>
+    <Record avg_speed="65.67241" coins_collected="2" date="1565612804846" fitts_law="false" level="3" score="30" time_played_millis="50367"/>
+    <Record avg_speed="145.70743" coins_collected="2" date="1565613136202" fitts_law="false" level="3" score="30" time_played_millis="47386"/>
+    <Record avg_speed="148.52716" coins_collected="0" date="1565613214362" fitts_law="false" level="1" score="0" time_played_millis="5710"/>
+  </Stats>
+  <Customize active_background_index="24" active_coin_index="12" active_music_index="30" active_obstacle_index="18" active_platform_index="6" active_player_index="0" background="images/background/videoBackground.svg" coins_collected="113" music="music/EDMDetectionMode.mp3" old_active_background_index="24" old_active_coin_index="12" old_active_music_index="30" old_active_obstacle_index="18" old_active_platform_index="6" old_active_player_index="0" opacity_bg="images/background/opacityVideoBackground.svg" unlocked_ids="-1-19">
+    <Background bg="images/background/videoBackground.svg" opacity_bg="images/background/opacityVideoBackground.svg"/>
+    <Background bg="images/background/mountain.svg" opacity_bg="images/background/opacityMountain.svg"/>
+    <Background bg="images/background/space.svg" opacity_bg="images/background/opacitySpace.svg"/>
+    <Background bg="images/background/bg_shroom.svg" opacity_bg="images/background/opacitybg_shroom.svg"/>
+    <Background bg="images/background/pretty.svg" opacity_bg="images/background/opacityPretty.svg"/>
+    <Background bg="images/background/rockMountain.svg" opacity_bg="images/background/opacityLandscape.svg"/>
+    <Music file="music/EDMDetectionMode.mp3"/>
+    <Music file="music/Motherlode.mp3"/>
+    <Music file="music/Overworld.mp3"/>
+    <Music file="music/TheLift.mp3"/>
+    <Music file="music/TownTheme.mp3"/>
+    <Music file="music/TheSky.mp3"/>
+  </Customize>
+  <!-- anonymous must have the value "true" or "false", indicating whether to anonymize the credits -->
+  <Credits anonymous="false"/>
+  <FittsLaw input_bonus_file="csv/input_platforms/bonusGameTable.csv" input_file="csv/input_platforms/testInput1.csv"/>
+  <Unlocked/>
+  <Calibration left_reading="0.0" left_sensitivity="0.0" left_sensor="0.0" right_reading="0.0" right_sensitivity="0.0" right_sensor="0.0"/>
+  <Story show="true"/>
+</SaveData>

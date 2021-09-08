@@ -1,0 +1,49 @@
+<Level>
+	<GameObject file="xml_data/calibrate_success_message.xml" tag="message"/>
+	<GameObject file="xml_data/button.xml" tag="Calibrate">
+		<Transform>
+			<Translation x="375.0" y="425.0"/>
+			<Scale x="200.0" y="50.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button.xml" tag="Continue">
+		<Transform>
+			<Translation x="125.0" y="425.0"/>
+			<Scale x="200.0" y="50.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/slider.xml" tag="left_slider">
+		<Transform>
+			<Translation x="130" y="220"/>
+			<Scale x="100" y="18"/>
+		</Transform>
+	</GameObject>
+	<GameObject file="xml_data/slider.xml" tag="right_slider">
+		<Transform>
+			<Translation x="130" y="370"/>
+			<Scale x="100" y="18"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/slider.xml" tag="left_mat">
+		<Transform>
+			<Translation x="330" y="200"/>
+			<Scale x="180" y="18"/>
+		</Transform>
+	</GameObject>
+	<GameObject file="xml_data/slider.xml" tag="right_mat">
+		<Transform>
+			<Translation x="330" y="350"/>
+			<Scale x="180" y="18"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button_back.xml" tag="back">
+		<Transform>
+			<Translation x="25.0" y="25.0"/>
+			<Scale x="30.0" y="30.0"/>
+		</Transform>
+	</GameObject>
+</Level>

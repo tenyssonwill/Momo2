@@ -1,0 +1,615 @@
+<GameObject tag="io_settings_message">
+	<IOOptionsController
+		musicSliderTag="music"
+		musicSliderLeftBoundary="285.0"
+		musicSliderRightBoundary="465.0"
+		musicSliderYPosition="75.0"
+		soundEffectsSliderTag="sound_effects"
+		soundEffectsSliderLeftBoundary="285.0"
+		soundEffectsSliderRightBoundary="465.0"
+		soundEffectsSliderYPosition="115.0"
+		thresholdSliderTag="threshold"
+		thresholdSliderLeftBoundary="285.0"
+		thresholdSliderRightBoundary="465.0"
+		thresholdSliderYPosition="235.0"
+	/>
+	<Render>
+		<!-- The position of these components within this file is very important,
+		they are being indexed according to their position in application code.
+		Moving these components, or inserting components above this position will
+		likely break application logic.-->
+			<Text
+				string="xxx"
+				fontName="Arial"
+				size="12"
+				antialiasing="true"
+				alignX="center"
+				alignY="baseline"
+				x="0.0"
+				y="0.0"
+			>
+				<FillColor r="0" g="0" b="0" a="255"/>
+				<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+			</Text>
+			<Text
+				string="xxx"
+				fontName="Arial"
+				size="12"
+				antialiasing="true"
+				alignX="center"
+				alignY="baseline"
+				x="0.0"
+				y="0.0"
+			>
+				<FillColor r="0" g="0" b="0" a="255"/>
+				<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+			</Text>
+
+      <!-- Text that used to be used by activation threshold slider. I'm not even going to attempt to remove this and adjust all indexes accordingly -->
+			<Text
+				string=""
+				fontName="Arial"
+				size="12"
+				antialiasing="true"
+				alignX="center"
+				alignY="baseline"
+				x="0.0"
+				y="0.0"
+			>
+				<FillColor r="0" g="0" b="0" a="255"/>
+				<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+			</Text>
+      <!-- ==================================================================================================== -->
+
+			<Text
+				string="Quit Game"
+				fontName="Moire" 
+				size="20"
+				antialiasing="true"
+				alignX="center"
+				alignY="center"
+				x="110.0"
+				y="470.0"
+			>
+				<FillColor r="0" g="0" b="0" a="255"/>
+				<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+			</Text>
+			<Sprite>
+				<Image	src="images/button/buttonNormal.png" x="110.0" y="470.0" width="200" height="80" resizeWidth="190" resizeHeight="50"/>
+			</Sprite>
+		<!-- =================================================================== -->
+	
+		<Text
+			string="System Settings"
+			fontName="Moire Bold" 
+			size="33"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="250.0"
+			y="25.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		
+		<Line x1="0.0" y1="10.0" x2="500.0" y2="10.0" x="0.0" y="0.0" width="1.0" height="5.0">
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Line>
+		
+		
+		<Text
+			string="Audio"
+			fontName="Moire"
+			size="20"
+			antialiasing="true"
+			alignX="left"
+			alignY="baseline"
+			x="25.0"
+			y="75.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="Music Volume"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="left"
+			alignY="baseline"
+			x="60.0"
+			y="100.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="Sound Effects Volume"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="left"
+			alignY="baseline"
+			x="60.0"
+			y="135.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="EMG"
+			fontName="Moire"
+			size="20"
+			antialiasing="true"
+			alignX="left"
+			alignY="baseline"
+			x="25.0"
+			y="200.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Sprite>
+			<Image src="images/button/questionMark.png" x="25.0" y="285.0" width="20" height="20" resizeHeight="20" resizeWidth="20"/>
+		</Sprite>
+		<Text
+			string="Input"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="left"
+			alignY="baseline"
+			x="50.0"
+			y="290.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="Difference (default) (?)"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="left"
+			alignY="baseline"
+			x="75.0"
+			y="320.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Ellipse x="375" y="315.0" halfWidth="15" halfHeight="15">
+			<FillColor r="255" g="255" b="255" a="0"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="0.1"/>
+		</Ellipse>
+		<Text
+			string="Max (?)"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="left"
+			alignY="baseline"
+			x="75.0"
+			y="350.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Ellipse x="375" y="345.0" halfWidth="15" halfHeight="15">
+			<FillColor r="255" g="255" b="255" a="0"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="0.1"/>
+		</Ellipse>
+		<Text
+			string="First-Over (?)"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="left"
+			alignY="baseline"
+			x="75.0"
+			y="380.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Ellipse x="375" y="375.0" halfWidth="15" halfHeight="15">
+			<FillColor r="255" g="255" b="255" a="0"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="0.1"/>
+		</Ellipse>
+		<Ellipse x="375.0" y="0.0" halfWidth="5" halfHeight="5">
+			<FillColor r="255" g="255" b="255" a="0"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Ellipse>
+		<Text
+			string="Calibrate"
+			fontName="Moire" 
+			size="20"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="390.0"
+			y="470.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Sprite>
+			<Image  src="images/button/buttonNormal.png" x="390.0" y="470.0"   width="200" height="80" resizeWidth="190" resizeHeight="50"/>
+		</Sprite>
+	</Render>
+	<Render>
+		<Rect x="1000.0" y="250.0" halfWidth="300" halfHeight="300">
+			<FillColor r="255" g="255" b="255" a="255"/>
+			<StrokeColor r="64" g="64" b="64" a="255" strokeWeight="0.01"/>
+		</Rect>
+		<Text
+			string="Input"
+			fontName="Moire"
+			size="20"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="150.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="The different ways muscle readings"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="200.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="are read to make Momo move when"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="220.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="using the Myo armband."
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="240.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Rect x="1000.0" y="250.0" halfWidth="300" halfHeight="300">
+			<FillColor r="255" g="255" b="255" a="255"/>
+			<StrokeColor r="64" g="64" b="64" a="255" strokeWeight="0.01"/>
+		</Rect>
+		<Text
+			string="Difference (default)"
+			fontName="Moire"
+			size="20"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="150.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="Ex: To move left, flex or extend to the"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="200.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="left and try to relax your right"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="220.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="muscle. Otherwise the right muscle"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="240.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="strength will be used against you and"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="260.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="slow down your movements."
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="280.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Rect x="1000.0" y="250.0" halfWidth="300" halfHeight="300">
+			<FillColor r="255" g="255" b="255" a="255"/>
+			<StrokeColor r="64" g="64" b="64" a="255" strokeWeight="0.01"/>
+		</Rect>
+		<Text
+			string="Max"
+			fontName="Moire"
+			size="20"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="150.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="The strongest of the two"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="200.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="muscle readings is used to control"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="220.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="the direction and speed of Momo."
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="240.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Rect x="1000.0" y="250.0" halfWidth="300" halfHeight="300">
+			<FillColor r="255" g="255" b="255" a="255"/>
+			<StrokeColor r="64" g="64" b="64" a="255" strokeWeight="0.01"/>
+		</Rect>
+		<Text
+			string="First-Over"
+			fontName="Moire"
+			size="20"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="150.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="The first of the two (left and right)"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="200.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="muscle readings to exceed a specified"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="220.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="threshold is used as input. The"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="240.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="other reading is ignored until the"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="260.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="first drops below the threshold."
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="280.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Rect x="1000.0" y="250.0" halfWidth="300" halfHeight="300">
+			<FillColor r="255" g="255" b="255" a="255"/>
+			<StrokeColor r="64" g="64" b="64" a="255" strokeWeight="0.01"/>
+		</Rect>
+		<Text
+			string="Threshold"
+			fontName="Moire"
+			size="20"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="150.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="This determines at what point"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="200.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="signals are detected from the user."
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="220.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="The muscle readings must surpass"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="240.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="this threshold percentage of the"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="260.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="user's calibration to be considered"
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="280.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="as input."
+			fontName="Moire"
+			size="15"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="1000.0"
+			y="300.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+	</Render>
+</GameObject>

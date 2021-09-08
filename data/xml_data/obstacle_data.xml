@@ -1,0 +1,34 @@
+<GameObject>
+	<Render>
+		<SpriteSheet src="images/obstacle/pokerMad.png" alphaImage=""
+				x="175.0" y="265.0"  
+				horzCount="1" vertCount="1" defaultCount="0" farmeFreq="0.5f"
+				zOrder="0" height="50.0" scaleHeight="40"> 
+		</SpriteSheet>
+		<SpriteSheet src="images/obstacle/swordInGround.png" alphaImage=""
+				x="225.0" y="265.0"  
+				horzCount="1" vertCount="1" defaultCount="0" farmeFreq="0f"
+				zOrder="0" height="50.0" scaleHeight="40">
+		</SpriteSheet> 
+		<SpriteSheet src="images/obstacle/spaceEnemy.png" alphaImage=""
+				x="275.0" y="265.0"  
+				horzCount="1" vertCount="1" defaultCount="0" farmeFreq="0f"
+				zOrder="0" height="50.0" scaleHeight="40"> 
+		</SpriteSheet>
+		<SpriteSheet src="images/obstacle/treeTrunk.png" alphaImage=""
+				x="325.0" y="265.0"  
+				horzCount="1" vertCount="1" defaultCount="0" farmeFreq="0f"
+				zOrder="0" height="50.0" scaleHeight="40">
+		</SpriteSheet>
+		<SpriteSheet src="images/obstacle/candyStick.png" alphaImage=""
+				x="375.0" y="265.0"  
+				horzCount="1" vertCount="1" defaultCount="0" farmeFreq="0f"
+				zOrder="0" height="47.0" scaleHeight="40">
+		</SpriteSheet>
+		<SpriteSheet src="images/obstacle/fenceObstacle.png" alphaImage=""
+				x="425.0" y="265.0"  
+				horzCount="1" vertCount="1" defaultCount="0" farmeFreq="0f"
+				zOrder="0" height="50.0" scaleHeight="40">
+		</SpriteSheet>
+	</Render>
+</GameObject>

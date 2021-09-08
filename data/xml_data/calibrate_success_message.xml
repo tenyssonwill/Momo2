@@ -1,0 +1,317 @@
+<GameObject tag="message">
+	<Render>
+			<!-- The position of these components within this file is very important,
+		they are being indexed according to their position in application code.
+		Moving these components, or inserting components above this position will
+		likely break application logic.-->
+			<Text
+				string="xxx"
+				fontName="Arial"
+				size="12"
+				antialiasing="true"
+				alignX="center"
+				alignY="baseline"
+				x="0.0"
+				y="0.0"
+			>
+				<FillColor r="0" g="0" b="0" a="255"/>
+				<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+			</Text>
+
+		<!-- =================================================================== -->
+		<Text
+			string="EMG Calibration"
+			fontName="Moire Bold" 
+			size="33"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="250.0"
+			y="25.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		
+		<Line x1="0.0" y1="10.0" x2="500.0" y2="10.0" x="0.0" y="0.0" width="1.0" height="5.0">
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Line>
+
+		<Text
+			string="EMG controls are ready to use!"
+			fontName="Moire" 
+			size="20"
+			antialiasing="true"
+			alignX="center"
+			alignY="baseline"
+			x="250.0"
+			y="90.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+
+		<Text
+			string=""
+			fontName="Moire" 
+			size="20"
+			antialiasing="true"
+			alignX="center"
+			alignY="baseline"
+			x="250.0"
+			y="130.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string=""
+			fontName="Moire" 
+			size="16"
+			antialiasing="true"
+			alignX="center"
+			alignY="baseline"
+			x="250.0"
+			y="150.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+
+		<Text
+			string=""
+			fontName="Moire" 
+			size="20"
+			antialiasing="true"
+			alignX="center"
+			alignY="baseline"
+			x="250.0"
+			y="280.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string=""
+			fontName="Moire" 
+			size="16"
+			antialiasing="true"
+			alignX="center"
+			alignY="baseline"
+			x="250.0"
+			y="300.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+
+		<Text
+			string="Re-Calibrate"
+			fontName="Moire"
+			size="20"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="380.0"
+			y="425.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Sprite>
+			<Image  src="images/button/buttonNormal.png" x="375.0" y="425.0"   width="200" height="80"  resizeWidth="200" resizeHeight="50"/>
+		</Sprite>
+
+		<Text
+			string="xxx"
+			fontName="Moire"
+			size="14"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="130.0"
+			y="190.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="0"
+			fontName="Moire"
+			size="16"
+			antialiasing="true"
+			alignX="right"
+			alignY="center"
+			x="75.0"
+			y="210.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="100"
+			fontName="Moire"
+			size="16"
+			antialiasing="true"
+			alignX="left"
+			alignY="center"
+			x="185.0"
+			y="210.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Rect halfHeight="8" halfWidth="90" x="330.0" y="220">
+			<StrokeColor a="255" b="0" g="0" r="0" strokeWeight="1.0"/>
+		</Rect>
+		<Rect halfHeight="6" halfWidth="0" x="330.0" y="220">
+			<StrokeColor a="255" b="255" g="0" r="0" strokeWeight="1.0"/>
+		</Rect>
+
+		<Text
+			string="xxx"
+			fontName="Moire"
+			size="14"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="130.0"
+			y="340.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="0"
+			fontName="Moire"
+			size="16"
+			antialiasing="true"
+			alignX="right"
+			alignY="center"
+			x="75.0"
+			y="360.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="100"
+			fontName="Moire"
+			size="16"
+			antialiasing="true"
+			alignX="left"
+			alignY="center"
+			x="185.0"
+			y="360.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Rect halfHeight="8" halfWidth="90" x="330.0" y="370">
+			<StrokeColor a="255" b="0" g="0" r="0" strokeWeight="1.0"/>
+		</Rect>
+		<Rect halfHeight="6" halfWidth="0" x="330.0" y="370">
+			<StrokeColor a="255" b="0" g="0" r="255" strokeWeight="1.0"/>
+		</Rect>
+
+		<Text
+			string=" Save Calibration"
+			fontName="Moire"
+			size="14"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="125.0"
+			y="415.0"
+		>
+		</Text>
+		<Text
+			string="and Continue"
+			fontName="Moire"
+			size="14"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="125.0"
+			y="430.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Sprite>
+			<Image  src="images/button/buttonNormal.png" x="125.0" y="425.0"   width="200" height="80"  resizeWidth="200" resizeHeight="50"/>
+		</Sprite>
+
+		<Text
+			string="If you're experiencing issues, check out: http://diagnostics.myo.com/"
+			fontName="Moire"
+			size="12"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="250.0"
+			y="475.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+
+		<!-- I'm putting these labels below here because I don't want to mess with the ordering of objects above, which the game depends on ordering for -->
+		<Text
+			string="Gain"
+			fontName="Moire"
+			size="16"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="130.0"
+			y="170.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="Activation Threshold"
+			fontName="Moire"
+			size="16"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="330.0"
+			y="170.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+
+		<Text
+			string="Gain"
+			fontName="Moire"
+			size="16"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="130.0"
+			y="320.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="Activation Threshold"
+			fontName="Moire"
+			size="16"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="330.0"
+			y="320.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+    <!-- =================================================================================================== -->
+
+	</Render>
+</GameObject>

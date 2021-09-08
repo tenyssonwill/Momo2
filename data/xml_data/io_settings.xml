@@ -1,0 +1,92 @@
+<Level>
+	<GameObject file="xml_data/slider.xml" tag="music">
+		<Transform>
+			<Translation x="375" y="90"/>
+			<Scale x="180" y="18"/>
+		</Transform>
+	</GameObject>
+	<GameObject file="xml_data/slider.xml" tag="sound_effects">
+		<Transform>
+			<Translation x="375" y="130"/>
+			<Scale x="180" y="18"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/io_settings_message.xml" tag="message"/>
+	<GameObject file="xml_data/button_back.xml" tag="back">
+		<Transform>
+			<Translation x="25.0" y="25.0"/>
+			<Scale x="30.0" y="30.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button.xml" tag="define_input">
+		<Transform>
+			<Translation x="25.0" y="280.0"/>
+			<Scale x="20.0" y="20.0"/>
+		</Transform>
+	</GameObject>
+	<GameObject file="xml_data/button.xml" tag="difference">
+		<Transform>
+			<Translation x="375.0" y="320.0"/>
+			<Scale x="20.0" y="20.0"/>
+		</Transform>
+	</GameObject>
+	<GameObject file="xml_data/button.xml" tag="max">
+		<Transform>
+			<Translation x="375.0" y="350.0"/>
+			<Scale x="20.0" y="20.0"/>
+		</Transform>
+	</GameObject>
+	<GameObject file="xml_data/button.xml" tag="first_over">
+		<Transform>
+			<Translation x="375.0" y="380.0"/>
+			<Scale x="20.0" y="20.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/modal.xml" tag="threshold_modal">
+		<Transform>
+			<Translation x="125" y="255"/>
+			<Scale x="100" y="20"/>
+		</Transform>
+	</GameObject>
+	<GameObject file="xml_data/modal.xml" tag="input">
+		<Transform>
+			<Translation x="75" y="290"/>
+			<Scale x="50" y="20"/>
+		</Transform>
+	</GameObject>
+	<GameObject file="xml_data/modal.xml" tag="difference">
+		<Transform>
+			<Translation x="165" y="320"/>
+			<Scale x="180" y="20"/>
+		</Transform>
+	</GameObject>
+	<GameObject file="xml_data/modal.xml" tag="max">
+		<Transform>
+			<Translation x="105" y="350"/>
+			<Scale x="70" y="15"/>
+		</Transform>
+	</GameObject>
+	<GameObject file="xml_data/modal.xml" tag="first_over">
+		<Transform>
+			<Translation x="125" y="380"/>
+			<Scale x="100" y="20"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button.xml" tag="quit">
+		<Transform>
+			<Translation x="110.0" y="470.0"/>
+			<Scale x="200.0" y="80.0"/>
+		</Transform>
+	</GameObject>
+
+	<GameObject file="xml_data/button.xml" tag="calibrate">
+		<Transform>
+			<Translation x="390.0" y="470.0"/>
+			<Scale x="200.0" y="80.0"/>
+		</Transform>
+	</GameObject>
+</Level>

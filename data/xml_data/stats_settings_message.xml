@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameObject tag="stats_settings_message">
+	<Render>
+		<Text
+			string="Gameplay Record"
+			fontName="Moire Bold" 
+			size="30"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="250.0"
+			y="25.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		
+		<Line x1="0.0" y1="10.0" x2="500.0" y2="10.0" x="0.0" y="0.0" width="1.0" height="5.0">
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Line>
+		
+		<Sprite>
+			<Image  src="images/button/buttonNormal.png" x="50.0" y="80.0" width="78" height="40" resizeHeight="40" resizeWidth="78"/>
+		</Sprite>
+		<Sprite>
+			<Image  src="images/button/buttonNormal.png" x="130.0" y="80.0" width="78" height="40" resizeHeight="40" resizeWidth="78"/>
+		</Sprite>
+		<Sprite>
+			<Image  src="images/button/buttonNormal.png" x="210.0" y="80.0" width="78" height="40" resizeHeight="40" resizeWidth="78"/>
+		</Sprite>
+		<Sprite>
+			<Image  src="images/button/buttonNormal.png" x="290.0" y="80.0" width="78" height="40" resizeHeight="40" resizeWidth="78"/>
+		</Sprite>
+		<Sprite>
+			<Image  src="images/button/buttonNormal.png" x="370.0" y="80.0" width="78" height="40" resizeHeight="40" resizeWidth="78"/>
+		</Sprite>
+		<Sprite>
+			<Image  src="images/button/buttonNormal.png" x="450.0" y="80.0" width="78" height="40" resizeHeight="40" resizeWidth="78"/>
+		</Sprite>
+		<Sprite>
+			<Image  src="images/button/buttonNormalHighlighted.png" x="50.0" y="80.0" width="78" height="40" resizeHeight="40" resizeWidth="78"/>
+		</Sprite>
+
+		<!-- Titles -->
+		<Text
+			string="Level"
+			fontName="Moire" 
+			size="13"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="50"
+			y="77"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="Score"
+			fontName="Moire" 
+			size="13"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="130"
+			y="77.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="Coins"
+			fontName="Moire" 
+			size="13"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="210.0"
+			y="77.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="Avg Speed"
+			fontName="Moire" 
+			size="13"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="290.0"
+			y="77.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="Duration"
+			fontName="Moire" 
+			size="13"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="370.0"
+			y="77.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Text
+			string="Date"
+			fontName="Moire" 
+			size="13"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="450.0"
+			y="77.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+
+		<Text
+			string="*** use the UP and DOWN arrows to see more records ***"
+			fontName="Moire" 
+			size="12"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="250.0"
+			y="480.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+		<Sprite>
+			<Image  src="images/button/redButton.png" x="30.0" y="485.0"   width="50" height="30"  resizeWidth="50" resizeHeight="30"/>
+		</Sprite>
+		<Text
+			string="Clear"
+			fontName="Moire"
+			size="10"
+			antialiasing="true"
+			alignX="center"
+			alignY="center"
+			x="30.0"
+			y="483.0"
+		>
+			<FillColor r="0" g="0" b="0" a="255"/>
+			<StrokeColor r="0" g="0" b="0" a="255" strokeWeight="1.0"/>
+		</Text>
+	</Render>
+</GameObject>

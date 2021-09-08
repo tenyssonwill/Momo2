@@ -1,0 +1,94 @@
+<GameObject>
+	<Render>
+		<!-- This is used for the Custimization Screen to load the chosen platforms into the game
+		1. Normal Platform
+		2. Sliperry Platform
+		3. Sticky Platform
+		4. Wall -->
+
+		<!-- Default Grass -->
+		<Sprite>
+			<Image src="images/block/grassBL.png" x="0.0" y="0.0"  width="1" height="1" resizeWidth="475" resizeHeight="15"/>
+		</Sprite>
+		<Sprite>
+			<Image src="images/block/grassIcyBL.png" x="0.0" y="0.0"  width="1" height="1" resizeHeight="15" resizeWidth="475"/>
+		</Sprite> 
+		<Sprite>
+			<Image src="images/block/stickyBL.png" x="0.0" y="0.0"  width="1" height="1" resizeHeight="15" resizeWidth="475"/>
+		</Sprite> 
+		<Sprite>
+			<Image src="images/block/sandWall.png" x="0.0" y="0.0"  width="1" height="1" resizeHeight="500" resizeWidth="20"/>
+		</Sprite>
+
+		<!-- Castle -->
+		<Sprite>
+			<Image src="images/block/castleBL.png" x="0.0" y="0.0"  width="1" height="1" resizeWidth="475" resizeHeight="15"/>
+		</Sprite>
+		<Sprite>
+			<Image src="images/block/castleIcyBL.png" x="0.0" y="0.0"  width="1" height="1" resizeHeight="15" resizeWidth="475"/>
+		</Sprite> 
+		<Sprite>
+			<Image src="images/block/castleStickyBL.png" x="0.0" y="0.0"  width="1" height="1" resizeHeight="15" resizeWidth="475"/>
+		</Sprite> 
+		<Sprite>
+			<Image src="images/block/castleWall.png" x="0.0" y="0.0"  width="1" height="1" resizeHeight="500" resizeWidth="20"/>
+		</Sprite>
+
+		<!-- keyBrick (Space) -->
+		<Sprite>
+			<Image src="images/block/keyBrickBL.png" x="0.0" y="0.0"  width="1" height="1" resizeWidth="475" resizeHeight="15"/>
+		</Sprite>
+		<Sprite>
+			<Image src="images/block/keyBrickIcyBL.png" x="0.0" y="0.0"  width="1" height="1" resizeHeight="15" resizeWidth="475"/>
+		</Sprite> 
+		<Sprite>
+			<Image src="images/block/keyBrickStickyBL.png" x="0.0" y="0.0"  width="1" height="1" resizeHeight="15" resizeWidth="475"/>
+		</Sprite> 
+		<Sprite>
+			<Image src="images/block/keyBrickWall.png" x="0.0" y="0.0"  width="1" height="1" resizeHeight="500" resizeWidth="20"/>
+		</Sprite>
+
+
+		<!-- Forest  -->
+		<Sprite>
+			<Image src="images/block/forestBL.png" x="0.0" y="0.0"  width="1" height="1" resizeWidth="475" resizeHeight="15"/>
+		</Sprite>
+		<Sprite>
+			<Image src="images/block/forestIcyBL.png" x="0.0" y="0.0"  width="1" height="1" resizeHeight="15" resizeWidth="475"/>
+		</Sprite> 
+		<Sprite>
+			<Image src="images/block/forestStickyBL.png" x="0.0" y="0.0"  width="1" height="1" resizeHeight="15" resizeWidth="475"/>
+		</Sprite> 
+		<Sprite>
+			<Image src="images/block/treeWall.png" x="0.0" y="0.0"  width="1" height="1" resizeHeight="500" resizeWidth="20"/>
+		</Sprite>
+
+		<!-- Pink Cake  -->
+		<Sprite>
+			<Image src="images/block/cakeBL.png" x="0.0" y="0.0"  width="1" height="1" resizeWidth="475" resizeHeight="15"/>
+		</Sprite>
+		<Sprite>
+			<Image src="images/block/cakeIcyBL.png" x="0.0" y="0.0"  width="1" height="1" resizeHeight="15" resizeWidth="475"/>
+		</Sprite> 
+		<Sprite>
+			<Image src="images/block/cakeStickyBL.png" x="0.0" y="0.0"  width="1" height="1" resizeHeight="15" resizeWidth="475"/>
+		</Sprite> 
+		<Sprite>
+			<Image src="images/block/cakeWall.png" x="0.0" y="0.0"  width="1" height="1" resizeHeight="500" resizeWidth="20"/>
+		</Sprite>
+
+		<!-- Video Game BackGround  -->
+		<Sprite>
+			<Image src="images/block/vidGameBL.png" x="0.0" y="0.0"  width="1" height="1" resizeWidth="475" resizeHeight="15"/>
+		</Sprite>
+		<Sprite>
+			<Image src="images/block/vidGameBLIcy.png" x="0.0" y="0.0"  width="1" height="1" resizeHeight="15" resizeWidth="475"/>
+		</Sprite> 
+		<Sprite>
+			<Image src="images/block/vidGameBLSticky.png" x="0.0" y="0.0"  width="1" height="1" resizeHeight="15" resizeWidth="475"/>
+		</Sprite> 
+		<Sprite>
+			<Image src="images/block/vidGameWall.png" x="0.0" y="0.0"  width="1" height="1" resizeHeight="500" resizeWidth="20"/>
+		</Sprite>
+	</Render>
+</GameObject>

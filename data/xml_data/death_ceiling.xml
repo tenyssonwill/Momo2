@@ -1,0 +1,33 @@
+<GameObject>
+	<Render>
+		<Sprite>
+			<Image src="images/death_ceiling/SpikeFull.png" x="0.0" y="0.0"   width="1" height="1" resizeHeight="15" resizeWidth="475"/> 
+		</Sprite> 
+	</Render>
+	
+	<RigidBody
+		type="static"
+		linearDamping="0.0"
+		angularDamping="0.0"
+		gravityScale="0.0"
+		allowSleep="true"
+		awake="false"
+		fixedRotation="true"
+		bullet="false"
+		active="true"
+	>
+		<Fixture
+			density="1.0"
+			friction="0.4"
+			restitution="0.3"
+			isSensor="true"
+		>
+			<Shape type="box" x="0.0" y="0.0" halfWidth="250.0" halfHeight="0.2"/>
+		</Fixture>
+		
+		<OnCollideEvents>
+			<Event collidedWith="player" eventType="GAME_OVER"/>
+			<Event collidedWith="coin" eventType="DESTROY_COIN" coinParameterName="coin"/>
+		</OnCollideEvents>
+	</RigidBody>
+</GameObject>
